@@ -40,7 +40,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-blue-100/20 to-purple-100/30 rounded-2xl transform rotate-2" />
             <div className="absolute inset-0 bg-gradient-to-l from-blue-100/20 to-purple-100/30 rounded-2xl transform -rotate-2" />
             <img
-              src="./images/medica2.png?height=200&width=400"
+              src="./images/medica.jpg?height=200&width=400"
               alt="Caring medical professional with elderly patient"
         className="relative z-10 w-full h-[600px] rounded-2xl shadow-xl object-cover"
             />

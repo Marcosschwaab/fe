@@ -9,7 +9,7 @@ const Header = () => {
       className="bg-white shadow-md fixed top-0 left-0 right-0 z-50"
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-      <motion.img whileHover={{ scale: 1.1 }} src="./images/logotipo.png" alt="StreamLine Logo" className="h-10" />
+      <motion.img whileHover={{ scale: 1.1 }} src="./images/LOGO_.png" alt="StreamLine Logo" className="h-10" />
         <nav>
           <ul className="flex space-x-5">
           <li>
