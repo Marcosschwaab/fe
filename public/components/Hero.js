@@ -1,10 +1,8 @@
 const Hero = () => {
   const { motion } = window.Motion
-  
 
   return (
-
-    <section className="w-full pt-24 pb-12 md:py-24 lg:py-32 xl:py-38 bg-gradient-to-r from-blue-50 to-purple-300">
+    <section className="w-full pt-24 pb-12 md:py-24 lg:py-32 xl:py-38 bg-gradient-to-r from-gray-100 bg-pink-700">
       <div className="container px-4 md:px-6 mx-auto">
         <div className="grid gap-10 lg:grid-cols-3 lg:gap-12 items-center">
           <motion.div
@@ -15,19 +13,26 @@ const Hero = () => {
           >
             <div className="space-y-2">
               <h1 className="text-5xl font-bold text-gray-800 md:text-6xl xl:text-7xl">
-              Geriatra & Clínica Médica
+                Geriatria: alcance a sua melhor versão em saúde e qualidade de vida.
               </h1>
               <p className="mt-6 text-lg text-gray-600 md:text-xl lg:text-2xl">
-              Minha proposta é um cuidado centrado na pessoa, conhecendo cada paciente na sua particularidade e integralidade, conhecendo sua saúde como um todo, sua personalidade e valores de vida, elaborando assim um plano de cuidados e tratamento individual.
+                Escolha nas opções abaixo como prefere seu atendimento
               </p>
             </div>
-            <div>
+            <div className="flex justify-center space-x-4 mt-6">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                className="focus:outline-none text-pink-200 bg-pink-700 hover:bg-pink-200 text-sm hover:text-pink-700 border border-pink-700 hover:border-pink-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
               >
-                Agendar Consulta
+                Agendar consulta clínica
+              </motion.button>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="focus:outline-none text-pink-200 bg-pink-700 hover:bg-pink-200 text-sm hover:text-pink-700 border border-pink-700 hover:border-pink-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
+              >
+                Agendar consulta domiciliar
               </motion.button>
             </div>
           </motion.div>
@@ -42,7 +47,7 @@ const Hero = () => {
             <img
               src="./images/medica.jpg?height=200&width=400"
               alt="Caring medical professional with elderly patient"
-        className="relative z-10 w-full h-[600px] rounded-2xl shadow-xl object-cover"
+              className="relative z-10 w-full h-[600px] rounded-2xl shadow-xl object-cover"
             />
           </motion.div>
         </div>
@@ -50,6 +55,7 @@ const Hero = () => {
     </section>
   )
 }
+
 
 
 
