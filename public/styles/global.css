@@ -1,19 +1,22 @@
+
+
+
 :root {
-    --primary-color: #4f46e5;
-    --secondary-color: #a78bfa;
+    --primary-color: #73226D;
+    --secondary-color: #FFC107;
   }
   
   body {
-    font-family: "Lato", sans-serif;
+    font-family: "Roboto", sans-serif;
   }
   
   .header-font {
-    font-family: "Lato", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
   }
   
   .nav-link {
-    font-family: "Lato", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     transition: all 0.3s ease;
   }

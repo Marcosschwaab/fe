@@ -2,7 +2,7 @@ const Hero = () => {
   const { motion } = window.Motion
 
   return (
-    <section className="w-full pt-24 pb-12 md:py-24 lg:py-32 xl:py-38 bg-gradient-to-r from-gray-100 bg-pink-700">
+    <section className="w-full pt-24 pb-12 md:py-24 lg:py-32 xl:py-38 bg-gradient-to-r from-gray-100 to-pink-900 ">
       <div className="container px-4 md:px-6 mx-auto">
         <div className="grid gap-10 lg:grid-cols-3 lg:gap-12 items-center">
           <motion.div
@@ -12,11 +12,11 @@ const Hero = () => {
             className="lg:col-span-2 py-2"
           >
             <div className="space-y-2">
-              <h1 className="text-5xl font-bold text-gray-800 md:text-6xl xl:text-7xl">
+              <h1 className="text-5xl text-gray-800 md:text-6xl xl:text-7xl">
                 Geriatria: alcance a sua melhor versão em saúde e qualidade de vida.
               </h1>
               <p className="mt-6 text-lg text-gray-600 md:text-xl lg:text-2xl">
-                Escolha nas opções abaixo como prefere seu atendimento
+                Adentimento individualizado, escuta ativa e acolhimento aos pacientes, pois acredito que o primeiro passo para oferecer um bom atendimento é conhecer suas histórias. Escolha nas opções abaixo como prefere seu atendimento
               </p>
             </div>
             <div className="flex justify-center space-x-4 mt-6">

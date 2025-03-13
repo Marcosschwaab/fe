@@ -33,7 +33,7 @@ const Features = () => {
               className="bg-gray-100 p-6 rounded-lg"
             >
                <img className="rounded-lg" src={feature.image} alt={feature.title} />
-              <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
+              <h3 className="text-xl font-semibold mb-2 mt-5">{feature.title}</h3>
               <p className="text-gray-600">{feature.description}</p>
             </motion.div>
           ))}
@@ -42,6 +42,9 @@ const Features = () => {
     </section>
   )
 }
+
+
+
 
 
 

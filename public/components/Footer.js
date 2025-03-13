@@ -39,7 +39,9 @@ const Footer = () => {
             <p className="text-sm">
             R. Guilherme Cassel Sobrinho, 04 –
               <br />
-              Nossa Sra. das Dores, Santa Maria – RS, 97050-270
+              Nossa Sra. das Dores, Santa Maria – RS, 
+              <br />
+              Cep: 97050-270
               <br />
               Telefone: (55) 3212-1012
               <br />
